@@ -575,9 +575,7 @@ body {
 .icon-card {
   fill: #afb1b8;
 }
-/*.icon-card:hover {
-  fill: var(--secondary-text-color);
-}**/
+
 .link-card:hover,
 .link-card:focus {
   background-color: var(--accent-color);
