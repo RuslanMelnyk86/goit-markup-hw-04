@@ -416,6 +416,14 @@ body {
   margin-top: 0;
   margin-bottom: 0;
 }
+.section-title-portfolio {
+  display: inline-block;
+  margin: 0;
+  min-width: 322px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-size: 16px;
+}
 .title-work-text {
   text-align: center;
   margin-top: 0;
@@ -438,12 +446,23 @@ body {
   text-transform: uppercase;
 }
 .projects {
+  display: block;
   text-decoration: none;
+}
+.pj-link {
+  display: inline-block;
+  margin: 0;
+  width: 370px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
 
 /*text portfolio*/
 .primary-text {
   padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+
   margin: 0;
   color: var(--paragraph-text-color);
 
